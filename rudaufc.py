@@ -10,10 +10,10 @@ from datetime import datetime
 sys.path.append('/home/sorteamos/svn.sorteamos.com.br/libs/lxml-2.3/build/lib.linux-x86_64-2.5')
 
 # Dados da API do @rudaufc
-oauth_token = '80696879-JDbn8frBA5AInwl9c2LJFXJr6rTxG0ldbWtzSKSg8'
-oauth_token_secret = '9e41CzLVU8W3RBp9KOoUjes1diW5MpDkirHjBGv4mC8'
-consumer_key = 'vuPoj70EgwiwTSCsUfn7WQ'
-consumer_secret = '7WWawEvQf79HWPzHTeLoAZRMbX2xni5fM7ZUISIrXQ'
+oauth_token = ''
+oauth_token_secret = ''
+consumer_key = ''
+consumer_secret = ''
 
 api = twitter.Api(consumer_key=consumer_key, consumer_secret=consumer_secret, access_token_key=oauth_token, access_token_secret=oauth_token_secret)
 
